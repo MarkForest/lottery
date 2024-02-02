@@ -1,0 +1,55 @@
+.wrap {
+    background-image: url("/images/14-July-2014-WIN-WIN-Lottery-W-265th.jpg");
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.main__block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+}
+.lottery__content {
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(25px);
+    background: rgba(0, 0, 0, .3);
+    margin-top: 50px;
+}
+.button__block {
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, .3);
+    padding: 20px 60px 60px;
+    border-radius: 5px;
+    position: relative;
+}
+.title__block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.generate_user--progress {
+    width: 500px;
+}
+.preloader {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.table_custom {
+    --bs-table-bg: transparent !important;
+}
+th, td {
+    color: white!important;
+}
